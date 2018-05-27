@@ -1,0 +1,314 @@
+/*Footer fijo*/
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+}
+
+.logito {
+    padding-left: 5%;
+    padding-top: 0.12em;
+}
+
+.navbar2 {
+    height: 150px;
+}
+.navbar2 nav,
+.nav-wrapper i,
+nav a.button-collapse,
+nav a.button-collapse i {
+    height: 150px;
+}
+@media only screen and (max-width: 400px) {
+    .logito {
+        padding-left: 5%;
+        padding-top: 0.12em;
+        width: 350px;
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .logito {
+        padding-left: 5%;
+        padding-top: 0.12em;
+        width: 380px;
+        height: 120px;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    .logito{
+      padding-left: 5%;
+      padding-top: 0.12em;
+      width: 460px;
+      height: 150px;
+    }
+}
+/*Posicionamiento del menu (public)*/
+.menu{
+    padding-top: 1em;
+}
+.meni{
+    margin-top: 5.8em;
+}
+.navi{
+    height: 150px;
+}
+.ini{
+    margin-left: 2em;
+}
+.lil{
+    padding-top: 1em;
+}
+.hol{
+    margin-bottom: 1em;
+}
+.tabis{
+    padding-top: 2.5em;
+}
+/*Menu del dashboard*/
+.dash-menu {
+    margin-left: 40em;
+    padding-top: 5.8em;
+    align-content: right;
+}
+
+.dropdown-content li a {
+    color: #e53935;
+}
+
+.sideNav {
+    color: #e53935;
+    position: absolute;
+    position: fixed;
+    z-index: 3;
+}
+
+/* Indicadores del slider (color) */
+.slider .indicators .indicator-item.active {
+    background-color: #c62828;
+}
+
+/* Indicadores del slider (color) */
+.slider .indicators .indicator-item {
+    background-color: #ef9a9a;
+}
+/* Label color en focus*/
+.input-field input:focus + label {
+    color: #c62828 !important;
+} 
+/* label color */
+.input-field label {
+    color: black !important;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus+label {
+    color: #c62828 !important;
+}
+
+/* label focus color */
+.input-field input[type=password]:focus+label {
+    color: #c62828 !important;
+}
+
+/* label focus color */
+.input-field input[type=email]:focus+label {
+    color: #c62828 !important;
+}
+
+/* label focus color */
+.input-field .materialize-textarea:focus+label {
+    color: #c62828 !important;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #c62828 !important;
+    box-shadow: 0 1px 0 0 #c62828 !important;
+}
+
+/* label underline focus color */
+.input-field input[type=password]:focus {
+    border-bottom: 1px solid #c62828 !important;
+    box-shadow: 0 1px 0 0 #c62828 !important;
+}
+
+/* label underline focus color */
+.input-field input[type=email]:focus {
+    border-bottom: 1px solid #c62828 !important;
+    box-shadow: 0 1px 0 0 #c62828 !important;
+}
+
+.input-field .materialize-textarea:focus {
+    border-bottom: 1px solid #c62828 !important;
+    box-shadow: 0 1px 0 0 #c62828 !important;
+}
+
+/* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #000 !important;
+    box-shadow: 0 1px 0 0 #000 !important;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #c62828 !important;
+}
+
+.switch label input[type=checkbox]:checked+.lever {
+    background-color: #bdbdbd;
+}
+
+.switch label input[type=checkbox]:checked+.lever:after {
+    background-color: #c62828;
+}
+
+#misTutorias {
+    padding-top: 10px;
+}
+
+.fondoPerfil {
+    position: relative;
+    display: inline-block;
+}
+
+.fotoPerfil {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    height: 200px;
+    width: 200px;
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+
+.texto {
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 1px 1px #000;
+}
+
+.desplazamiento {
+    overflow: auto;
+    height: 400px;
+}
+
+.desplazamientoM {
+    overflow: auto;
+    height: 215px;
+}
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #1abc9c;
+    text-align: center;
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 12%;
+    color: #666;
+    text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 12%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #616161;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+
+/*Paleta de colores (text)*/
+.color1-text{
+    color: #CC0000;
+}
+.color2-text{
+    color: #7B0F0F;
+}
+.color3-text{
+    color: #1B1B1B;
+}
+.color4-text{
+    color: #333333;
+}
+
+/*Paleta de colores (background)*/
+.color1{
+    background-color: #CC0000;
+}
+.color2{
+    background-color: #7B0F0F;
+}
+.color3{
+    background-color: #1B1B1B;
+}
+.color4{
+    background-color: #333333;
+}
+  
